@@ -1,6 +1,6 @@
 {
-  "name": "notepad",
-  "productName": "notepad",
+  "name": "vue-app",
+  "productName": "vue-app",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -29,7 +29,8 @@
         ]
       },
       "electronPackagerConfig": {
-        "packageManager": "npm"
+        "packageManager": "npm",
+        "asar": true
       },
       "electronWinstallerConfig": {
         "name": "notepad"
@@ -47,7 +48,7 @@
     }
   },
   "dependencies": {
-    "electron-compile": "^6.4.2",
+    "electron-compile": "^6.4.3",
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
@@ -55,11 +56,12 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "electron-forge": "^5.2.2",
+    "electron-packager": "^12.1.0",
     "electron-prebuilt-compile": "2.0.2",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.9.1"
+    "eslint-plugin-react": "^7.10.0"
   }
 }

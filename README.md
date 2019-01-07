@@ -34,9 +34,9 @@ C:\Users\Dengtong>npm install -g cnpm --registry=https://registry.npm.taobao.org
  ## Create project
 
 * First,I save the project at `G:\electron\app\`
-* Then,open the cmd to run electron-forge as :`G:\electron\app>electron-forge init notepad`
+* Then,open the cmd to run electron-forge as :`G:\electron\app>electron-forge init myproject`
 
-ok,now a simple electron project has been created in the notepad folder
+ok,now a simple electron project has been created in the myproject folder
 
  ## Run project
 
