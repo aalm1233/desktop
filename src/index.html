@@ -3,8 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script src="../src/js/des.js"></script>
   </head>
   <body>
-    Well hey there!!!
+    <button type="button" onclick="">
+      <form>
+        <table>
+          <tr><td>
+            <textarea rows="20" cols="50" name="magnetString" style="resize: none;"></textarea>
+          </td></tr>
+          <tr><td align="right">
+            <input type="reset" name="reset" id="resetbutton" value="重置">
+            <input type="button" name="button1" id="sumbitbutton1" onclick="Des(magnetString,1)" value="加密">
+            <input type="button" name="button2" id="sumbitbutton2" onclick="Des(magnetString,0)" value="解密">
+          </td></tr>
+          <tr><td>
+              <textarea rows="20" cols="50" id="magnetString1"name="magnetString1" style="resize: none;" disabled="ture"></textarea>
+            </td></tr>
+        </table>
+      </form>
   </body>
 </html>
